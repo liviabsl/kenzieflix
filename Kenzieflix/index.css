@@ -1,0 +1,101 @@
+*{
+    list-style: none;
+    text-decoration: none;color: inherit;
+    
+}
+body{
+    background-color: black;
+
+}
+
+.container-all{
+    background-color: rgb(14, 15, 15);
+    margin: 100px 90px;
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container-all ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    
+}
+
+.container-all p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.vazio{
+    background-color: antiquewhite;
+    width: 160px;
+    height: 160px;
+}
+
+
+.botao{
+    background-color: rgb(14, 15, 15);
+    color: white;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-style: none;
+    border: solid white 1px;
+    border-radius: 8px
+    
+   
+}
+
+.avatar{
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    transition-duration: 1.0s;
+}
+
+.avatar:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    
+}
+
+.div-pai{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 2px;
+
+    
+}
+
+.div-pai:hover{
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 156px;
+    height: 156px;
+    
+}
+.botao1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.opacidade{
+    opacity: 0.5;
+}
+
+.opacidade:hover{
+    opacity: 1.0;
+}
